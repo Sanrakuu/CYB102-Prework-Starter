@@ -20,7 +20,9 @@
 # GOAL: Replace the contents of the "intro.txt" file with an introduction!
 # COMMAND: echo (https://linux.die.net/man/1/echo) 
 ###
-echo "Replace this line with your answer to challenge #1"
+
+echo "Hello, my name is Marouane!" > intro.txt
+cat intro.txt
 
 ###
 # Challenge #2: Digital sharpie
@@ -28,7 +30,7 @@ echo "Replace this line with your answer to challenge #1"
 # GOAL: Make the file "permanent.txt" unable to be edited (AKA written).
 # COMMAND: chmod (https://linux.die.net/man/1/chmod) 
 ###
-echo "Replace this line with your answer to challenge #2"
+chmod -w permanent.txt
 
 ###
 # Challenge #3: Backup your backups!
@@ -36,4 +38,4 @@ echo "Replace this line with your answer to challenge #2"
 # GOAL: Make an exact copy of the file "random.txt" called "copy.txt"
 # COMMAND: cp (https://linux.die.net/man/1/cp) 
 ###
-echo "Replace this line with your answer to challenge #3"
+cp random.txt copy.txt
